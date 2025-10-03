@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist", // Directorio de compilación del proyecto
+      "rootDir": "./src", // Directorio de entrada del proyecto      "esModuleInterop": true, // Habilitar la compatibilidad con módulos ES,
+      "lib": ["ESNext", "DOM"], // Establecer las bibliotecas JS disponibles para TS
+      "target": "ESNext", //  Establece la versión de ECMAScript a compilar (ESNext = versión más reciente)
+      "moduleResolution": "NodeNext", // Resuelve los módulos de Node.js
+      "module": "NodeNext", // Forma de compilar el código
+      "strict": true, // Deshabilita la verificación de tipos estricta
+      "sourceMap": true, // Generar archivo de compilación
+      "esModuleInterop": true, // Habilita el uso de ES modules y CommonJS modules
+      "declaration": true, // Permitir generar archivos .d.ts
+    },
+    "include": ["src/**/*.ts"], // Incluir todos los archivos de la carpeta src en la compilación
+    "exclude": ["node_modules", "dist", "tests"]
+  }

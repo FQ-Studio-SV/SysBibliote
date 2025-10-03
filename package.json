@@ -1,0 +1,28 @@
+{
+ "name": "biblioteca-json",
+ "version": "1.0.0",
+ "description": "Sistema CRUD de gestión de biblioteca usando archivos JSON",
+ "main": "dist/app.js",
+ "scripts": {
+  "build": "tsc",
+  "start": "node dist/app.js",
+  "test": "jest --config jest.config.js --runInBand",
+  "lint": "eslint . --ext .ts"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "MIT",
+ "dependencies": {
+  "inquirer": "^9.0.0",
+  "uuid": "^9.0.0"
+ },
+ "devDependencies": {
+  "@types/inquirer": "^9.0.9",
+  "@types/jest": "^29.0.0",
+  "@types/node": "^20.0.0",
+  "jest": "^29.0.0",
+  "ts-jest": "^29.0.0",
+  "ts-node": "^10.0.0",
+  "typescript": "^5.9.3"
+ }
+}

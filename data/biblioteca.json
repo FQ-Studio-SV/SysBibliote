@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalLibros": 1,
+    "ultimaActualizacion": "2025-10-03T14:40:20.223Z"
+  },
+  "libros": [
+    {
+      "titulo": "El principito",
+      "autor": "un frances",
+      "isbn": "1",
+      "genero": "fantasia",
+      "anioPublicacion": null,
+      "editorial": "libros",
+      "estado": "disponible",
+      "fechaAdquisicion": "2004-04-28",
+      "ubicacion": "ss",
+      "id": "mgayb8cf5oafsg"
+    }
+  ]
+}
